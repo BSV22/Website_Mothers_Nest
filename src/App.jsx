@@ -11,7 +11,8 @@ function App() {
     <>
       <Navbar />
 
-      <div className='flex flex-col items-center justify-center min-h-90 bg-gray-100'>
+      <div className='flex flex-col items-center justify-center min-h-135 bg-opacity-50 bg-gray-300 bg-cover bg-center'> 
+        {/* //bg-[url("/image.png")] */}
         <h1 className="text-3xl font-bold text-center m-10">Mothers Nest</h1>
       </div>
       <div className='flex flex-col '>
@@ -31,7 +32,7 @@ function App() {
         <Cards title="Sports" content="WE also organise Annual Sports Day" />
       </div>
 
-      <footer className='flex justify-center bg-cyan-950 text-amber-50' >Thank you</footer>
+      <footer className='flex justify-center bg-cyan-950 text-amber-50 mt-8' >Thank you</footer>
     </>
   )
 }
